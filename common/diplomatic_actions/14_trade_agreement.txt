@@ -135,17 +135,22 @@
 					has_diplomatic_pact = {
 						who = scope:target_country
 						type = customs_union
-					}					
+					}
 				}
-				is_junior_in_customs_union = no
-				scope:target_country = { is_junior_in_customs_union = no }
+				OR = {
+					AND = { 
+						is_junior_in_customs_union = no
+						scope:target_country = { is_junior_in_customs_union = no }
+					}
+					in_superstate_free_trade_zone = yes
+				}
 				
 				OR = { 
 					custom_tooltip = {
 						text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
 						scope:target_country.relations:root > relations_threshold:poor
 					}
-					NOT = { NOT_in_superstate_free_trade_zone = yes }
+					in_superstate_free_trade_zone = yes
 				}
 				
 				is_revolutionary = no is_secessionist = no
