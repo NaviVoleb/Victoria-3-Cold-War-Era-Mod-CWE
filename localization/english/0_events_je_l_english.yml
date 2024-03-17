@@ -1333,6 +1333,10 @@
     
     YUG_1974_revolution.t:0 "The 1974 Constitution?"
     YUG_1974_revolution.d:0 "With 406 original articles, the 1974 constitution was one of the longest constitutions in the world. It added elaborate language protecting the self-management system from state interference and expanding representation of republics and provinces in all electoral and policy forums. The Constitution called the restructured Federal Assembly the highest expression of the self-management system."
+    YUG_1980_revolution.t:0 "Death of Josip Broz Tito"
+    YUG_1980_revolution.d:0 "Tito had become increasingly ill throughout 1979. On 7 January and again on 11 January 1980, Tito was admitted to the University Medical Centre in Ljubljana, the capital city of SR Slovenia, with circulation problems in his legs. His left leg was amputated soon afterwards due to arterial blockages, and he died of gangrene at the Medical Centre Ljubljana on 4 May 1980 at 3:05 pm, three days short of his 88th birthday."
+    
+    tito_death.option:0 "Rest in Peace"
     
     ALB_1997_revolution.t:0 "The Albanian Monarchy Referendum"
     ALB_1997_revolution.d:0 "A referendum on restoring the monarchy was held in Albania on 29 June 1997 alongside parliamentary elections. The proposal was rejected by 66.7% of voters. However, former Crown Prince Leka claimed that 65.7% voted in favour."
@@ -1431,26 +1435,26 @@
     HND_1991_revolution.d:0 "The assassination of Rajiv Gandhi, former Prime Minister of India, occurred as a result of a suicide bombing in Sriperumbudur in Tamil Nadu, India on 21 May 1991. At least 14 others, in addition to Rajiv Gandhi, were killed. It was carried out by 22-year-old Kalaivani Rajaratnam (popularly known by her assumed names Thenmozhi Rajaratnam and Dhanu), a member of the Sri Lankan Tamil banned separatist rebel organisation Liberation Tigers of Tamil Eelam (LTTE)."
     
     BUR_1962_revolution.t:0 "Burmese coup d'état?"
-    BUR_1962_revolution.d:0 "Burmese coup d'état DESC"
+    BUR_1962_revolution.d:0 "The 1962 Burmese coup d'état marked the beginning of one-party rule in Burma and the political dominance of the military in Burmese politics. In the 2 March 1962 coup, the military replaced the civilian AFPFL-government headed by Prime Minister U Nu, along with the Union Revolutionary Council Chaired by General Ne Win."
     BUR_1974_revolution.t:0 "Burmese Way to Socialism?"
-    BUR_1974_revolution.d:0 "Burmese Way to Socialism DESC"
+    BUR_1974_revolution.d:0 "The Burmese Way to Socialism was the state ideology of the Socialist Republic of the Union of Burma, the socialist state governed by the Burma Socialist Programme Party (BSPP) from 1962 to 1988."
     BUR_1988_revolution.t:0 "The 8888 Uprising?"
-    BUR_1988_revolution.d:0 "The 8888 Uprising DESC"
+    BUR_1988_revolution.d:0 "The 8888 uprising was started by students in Yangon (Rangoon) on 8 August 1988. Student protests spread throughout the country. Hundreds of thousands of monks, children, university students, housewives, doctors and common people protested against the government."
     BUR_1990_revolution.t:0 "The Tatmadaw coup d'état?"
-    BUR_1990_revolution.d:0 "The Tatmadaw coup d'état DESC"
+    BUR_1990_revolution.d:0 "General elections were held in Myanmar on 27 May 1990, the first multi-party elections since 1960, after which the country had been ruled by a military dictatorship. The result was a landslide victory for Aung San Suu Kyi's National League for Democracy (NLD), which won 392 of the 492 seats. However, the military junta refused to recognise the results and continued ruling the country."
     BUR_2007_revolution.t:0 "The Saffron Revolution?"
-    BUR_2007_revolution.d:0 "The Saffron Revolution DESC"
+    BUR_2007_revolution.d:0 "The Saffron Revolution was a series of economic and political protests and demonstrations that took place during August, September, and October 2007 in Myanmar. The protests were triggered by the decision of the national military government to remove subsidies on the sales prices of fuel."
     BUR_2015_revolution.t:0 "The Road to Democracy?"
-    BUR_2015_revolution.d:0 "The Road to Democracy DESC"
+    BUR_2015_revolution.d:0 "General elections were held on 8 November 2015. These were the first openly contested elections held in Myanmar since the 1990 general election (which was annulled). The results gave the NLD an absolute majority of seats in both chambers of the national parliament, enough to ensure that its candidate would become president, while NLD leader Aung San Suu Kyi is constitutionally barred from the presidency."
     BUR_2021_revolution.t:0 "The Tatmadaw coup d'état?"
-    BUR_2021_revolution.d:0 "The Tatmadaw coup d'état DESC"
+    BUR_2021_revolution.d:0 "A coup d'état in Myanmar began on the morning of 1 February 2021, when democratically elected members of the country's ruling party, the National League for Democracy (NLD), were deposed by the Tatmadaw — Myanmar's military — which then vested power in a military junta."
     
     CAM_1970_revolution.t:0 "The Khmer Republic?"
-    CAM_1970_revolution.d:0 "The Khmer Republic DESC"
+    CAM_1970_revolution.d:0 "The Khmer Republic was a Cambodian state under the United States-backed military dictatorship of Marshal Lon Nol from 1970 to 1975. Its establishment was formally declared on 9 October 1970, following the 18 March 1970 coup d'état which saw the overthrow of Norodom Sihanouk's government and the abolishment of the Cambodian monarchy."
     CAM_1975_revolution.t:0 "The Rise of the Khmer Rouge?"
-    CAM_1975_revolution.d:0 "The Rise of the Khmer Rouge DESC"
+    CAM_1975_revolution.d:0 "Kampuchea was the Cambodian state from 1975 to 1979, under the totalitarian dictatorship of Pol Pot and the Communist Party of Kampuchea (CPK), commonly known as the Khmer Rouge (KR). It was established following the Khmer Rouge's capture of the capital Phnom Penh, effectively ending the United States-backed Khmer Republic of Lon Nol."
     CAM_1993_revolution.t:0 "The Restoration of Democracy?"
-    CAM_1993_revolution.d:0 "The Restoration of Democracy?"
+    CAM_1993_revolution.d:0 "In November 1978, Vietnamese troops invaded Cambodia in response to border raids by the Khmer Rouge and conquered it. Peace efforts began in Paris in 1989 under the State of Cambodia, culminating 2 years later in October 1991 in a Paris Comprehensive Peace Settlement. UN was given a mandate to enforce a ceasefire and deal with refugees and disarmament known as the United Nations Transitional Authority in Cambodia (UNTAC). In 1993, the monarchy was restored with Norodom Sihanouk reinstated as King, and the first post-war election was coordinated by UNTAC."
     
     IDO_1959_revolution.t:0 "The Guided Democracy?"
     IDO_1959_revolution.d:0 "Guided Democracy was the political system in place in Indonesia from 1959 until the New Order began in 1966. It was the brainchild of President Sukarno, and was an attempt to bring about political stability. Sukarno believed that the parliamentarian system implemented during the liberal democracy period in Indonesia was ineffective due to its divisive political situation at that time. Instead, he sought a system based on the traditional village system of discussion and consensus, which occurred under the guidance of village elders. With the declaration of martial law and the introduction of this system, Indonesia returned to the presidential system and Sukarno became the head of government again."
@@ -1459,11 +1463,29 @@
     IDO_1998_revolution.t:0 "Democratisation of Indonesia?"
     IDO_1998_revolution.d:0 "With Suharto increasingly seen as the source of the country's mounting economic and political crises, prominent political figures, including Muslim politician Amien Rais, spoke out against his presidency, and in January 1998 university students began organising nationwide demonstrations. The crisis climaxed while Suharto was on a state visit to Egypt on 12 May 1998, when security forces killed four demonstrators from Jakarta's Trisakti University. On 21 May 1998, Suharto announced his resignation, upon which vice-president Habibie assumed the presidency in accordance with the constitution."
     
+    NKO_1994_revolution.t:0 "The Rise of Kim Jong Il?"
+    NKO_1994_revolution.d:0 "Kim Jong Il was a North Korean politician who was the second supreme leader of North Korea. He led North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011, when he was succeeded by his son, Kim Jong Un."
+    NKO_2012_revolution.t:0 "The Rise of Kim Jong Un?"
+    NKO_2012_revolution.d:0 "Kim Jong Un is a North Korean politician who has been supreme leader of North Korea since 2011 and the leader of the Workers' Party of Korea (WPK) since 2012. He is the third son of Kim Jong Il, who was North Korea's second supreme leader from 1994 until his death in 2011, and Ko Yong Hui."
+    
+    SKO_1960_revolution.t:0 "The April Revolution?"
+    SKO_1960_revolution.d:0 "The April Revolution were mass protests in South Korea against President Syngman Rhee and the First Republic from April 11 to 26, 1960, which led to Rhee's resignation. The protests were triggered by the discovery of the body of a local high school student killed by police during demonstrations against rigged elections in March. Popular discontent had arisen due to Rhee's autocratic rule, corruption, use of violence against political opposition, and uneven development of South Korea."
+    SKO_1961_revolution.t:0 "The May 16 Coup?"
+    SKO_1961_revolution.d:0 "The May 16 military coup d'état was a military coup d'état in South Korea in 1961, organised and carried out by Park Chung Hee and his allies who formed the Military Revolutionary Committee, nominally led by Army Chief of Staff Chang Do-yong after the latter's acquiescence on the day of the coup. The coup rendered powerless the democratically elected government of Prime Minister Chang Myon and President Yun Posun, and ended the Second Republic, installing a reformist military Supreme Council for National Reconstruction effectively led by Park, who took over as chairman after General Chang's arrest in July."
+    SKO_1972_revolution.t:0 "The Yushin Constitution?"
+    SKO_1972_revolution.d:0 "In October 1972, Park dissolved the legislature and suspended the 1963 constitution in a self-coup. Work then began on drafting a new constitution. A new constitution, the so-called Yushin Constitution was approved in a heavily rigged plebiscite in November 1972. Park was given sweeping powers to rule by decree and suspend constitutional freedoms. The presidential term was increased from four to six years, with no limits on re-election. For all intents and purposes, it codified the emergency powers Park had exercised for the past year, transforming his presidency into a legal dictatorship."
+    SKO_1979_revolution.t:0 "The Assassination of Park Chung Hee?"
+    SKO_1979_revolution.d:0 "Park Chung Hee was assassinated on October 26, 1979, during a dinner at the Korean Central Intelligence Agency (KCIA) safe house near the Blue House presidential compound in Jongno District, Seoul, South Korea. Kim Jae-gyu, the director of the KCIA and the president's security chief, was responsible for the assassination. Park was shot in the chest and the head, and died almost immediately."
     SKO_1987_revolution.t:0 "The June Democratic Struggle?"
     SKO_1987_revolution.d:0 "The June Democratic Struggle was a nationwide pro-democracy movement in South Korea that generated mass protests from June 10 to 29, 1987. The demonstrations forced the ruling government to hold direct presidential elections and institute other democratic reforms, which led to the establishment of the Sixth Republic, the present-day government of South Korea."
     
     ROC_1996_revolution.t:0 "Democratisation of Taiwan?"
     ROC_1996_revolution.d:0 "In 1987, martial law was lifted and Taiwan began a democratisation process, beginning with the abolition of the Temporary Provisions and culminating with the first direct president election in 1996."
+    
+    NVM_1969_revolution.t:0 "The Rise of Lê Duẩn?"
+    NVM_1969_revolution.d:0 "Lê Duẩn was a Vietnamese communist politician. He rose in the party hierarchy in the late 1950s and became General Secretary of the Central Committee of the Communist Party of Vietnam (VCP) at the 3rd National Congress in 1960. He continued Hồ Chí Minh's policy of ruling through collective leadership. From the mid-1960s (when Hồ's health was failing) until his own death in 1986, he was the top decision-maker in Vietnam."
+    NVM_1986_revolution.t:0 "The Rise of Nguyễn Văn Linh?"
+    NVM_1986_revolution.d:0 "Nguyễn Văn Linh was a Vietnamese revolutionary and politician. Nguyễn Văn Linh was the general secretary of the Communist Party of Vietnam from 1986 to 1991 and a political leader of the Vietcong during the Vietnam War. During his time in office, Linh was a strong advocate of "Đổi Mới" (renovation), an economic plan whose aim is to turn Vietnam economy to a socialist-oriented market economy. As such, Linh was often touted as the "Vietnamese Gorbachev" after the Soviet leader, who introduced Perestroika."
     
     SVM_1955_revolution.t:0 "State of Vietnam Referendum"
     SVM_1955_revolution.d:0 "The 1955 State of Vietnam referendum determined the future form of government of the State of Vietnam, the nation that was to become the Republic of Vietnam (widely known as South Vietnam). It was contested by Prime Minister Ngô Đình Diệm, who proposed a republic, and former emperor Bảo Đại, who had abdicated in 1945 and at the time of the referendum held the title of head of state."
@@ -1827,6 +1849,11 @@
     je_term_limits_swiss_status:0 "Served [GetPlayer.MakeScope.Var('term_limit_var').GetValue] / 12 months"
     
     je_term_limits.3.tt:0 "Is $SWI$"
+    
+    je_term_limits_yugoslav:0 "Presidency of [ROOT.GetCountry.GetRuler.GetFullName]"
+    je_term_limits_yugoslav_reason:0 "A collective presidency existed in Yugoslavia since amendments to the 1963 Constitution in 1971. A separate article affirmed Josip Broz Tito with an unlimited mandate which ensured the new President of the Presidency would not come into effect until after his death. When Tito died on 4 May 1980, the then Vice President of the Presidency acceded to the role of President of the Presidency. Subsequent to this the role of President of the Presidency would rotate on an annual basis with each President serving as Vice President the year prior."
+    je_term_limits_yugoslav_goal:0 "President [ROOT.GetCountry.GetRuler.GetFullName] has reached the term limit"
+    je_term_limits_yugoslav_status:0 "Served [GetPlayer.MakeScope.Var('term_limit_var').GetValue] / 12 months"
     
     je_the_cold_war_democratic.1.tt:0 "This country is a democratic $super_power$ and there are no communist $super_power$"
     je_the_cold_war_democratic.2.tt:0 "There are no democratic $super_power$"
