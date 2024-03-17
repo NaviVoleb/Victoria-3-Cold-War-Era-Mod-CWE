@@ -28,7 +28,7 @@
 		
 		#Both countries do not have a subject-overlord relationship
 		scope:target_country = { 
-			has_subject_relation_with = ROOT
+			NOT = { has_subject_relation_with = scope:actor }
 		}
 		
 		#THIS and TARGET hate each other and so there is a need for a NAP
@@ -142,7 +142,7 @@
 				
 				#Both countries do not have a subject-overlord relationship
 				scope:target_country = { 
-					has_subject_relation_with = ROOT
+					NOT = { has_subject_relation_with = scope:actor }
 				}
 			
 				#Cannot enter into NAP if both are at war
@@ -288,17 +288,40 @@
 			if = {
 				limit = {
 					scope:target_country = {
-						ruler = {
-							OR = {
-								has_ideology = ideology:ideology_autocratic
-								has_ideology = ideology:ideology_power_hungry
-							}
+						ruler ?= {
+							has_ideology = ideology:ideology_autocratic
+						}
+					}
+				}
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_JINGOISTIC_RULER"
+					value = -100
+				}
+			}
+			if = {
+				limit = {
+					scope:target_country = {
+						ruler ?= {
+							has_ideology = ideology:ideology_power_hungry
 						}
 					}
 				}
 				add = {
 					desc = "DIPLOMATIC_ACCEPTANCE_JINGOISTIC_RULER"
 					value = -50
+				}
+			}
+			if = {
+				limit = {
+					scope:target_country = {
+						ruler ?= {
+							has_ideology = ideology:ideology_elitist
+						}
+					}
+				}
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_JINGOISTIC_RULER"
+					value = -25
 				}
 			}
 			if = {
