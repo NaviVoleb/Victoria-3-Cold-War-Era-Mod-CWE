@@ -257,6 +257,15 @@ is_a_absolute_monarchy = {
 	
 }
 
+is_a_constitutional_monarchy_regime = {
+
+	OR = {
+		has_government_type = gov_constitutional_monarchy_dictatorship
+		has_government_type = gov_constitutional_monarchy_regime
+	}
+	
+}
+
 is_a_monarchy = {
 
 	OR = {
@@ -918,10 +927,14 @@ country_has_an_investment_pool = {
 }
 
 supreme_court_is_progressive = {
+	has_variable = judiciary_progressiveness
+	has_variable = judiciary_size_majority
 	root.var:judiciary_progressiveness > root.var:judiciary_size_majority
 }
 
 supreme_court_is_regressive = {
+	has_variable = judiciary_progressiveness
+	has_variable = judiciary_size_majority
 	root.var:judiciary_progressiveness < root.var:judiciary_size_majority
 }
 

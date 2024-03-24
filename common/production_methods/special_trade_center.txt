@@ -22,8 +22,9 @@ pm_trade_center = {
 pm_trade_center_merchant_guilds = {
 	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
 	
-	disallowing_laws = {
-		law_command_economy law_semi_command_economy
+	unlocking_laws = {
+		law_interventionism
+		law_laissez_faire
 	}
 	
 	building_modifiers = { 
@@ -40,17 +41,19 @@ pm_trade_center_merchant_guilds = {
 pm_trade_center_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	
-	disallowing_laws = {
+	unlocking_laws = {
 		law_interventionism
 		law_laissez_faire
 	}
 	
 	building_modifiers = { 
 		level_scaled = {
-			building_employment_capitalists_add = 100
+			building_employment_shopkeepers_add = 50
+			building_employment_capitalists_add = 50
 		}
 		unscaled = {		
-			building_capitalists_shares_add = 10
+			building_shopkeepers_shares_add = 5
+			building_capitalists_shares_add = 5
 		}
 	}
 }
@@ -65,11 +68,13 @@ pm_trade_center_semi_privately_owned = {
 	
 	building_modifiers = { 
 		level_scaled = {
+			building_employment_shopkeepers_add = 25
+			building_employment_capitalists_add = 25
 			building_employment_bureaucrats_add = 50
-			building_employment_capitalists_add = 50
 		}
-		unscaled = {		
-			building_capitalists_shares_add = 5
+		unscaled = {	
+			building_shopkeepers_shares_add = 2
+			building_capitalists_shares_add = 3
 			building_government_shares_add = 5
 		}
 	}

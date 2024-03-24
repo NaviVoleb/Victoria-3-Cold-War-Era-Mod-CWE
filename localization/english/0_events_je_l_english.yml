@@ -1463,6 +1463,17 @@
     IDO_1998_revolution.t:0 "Democratisation of Indonesia?"
     IDO_1998_revolution.d:0 "With Suharto increasingly seen as the source of the country's mounting economic and political crises, prominent political figures, including Muslim politician Amien Rais, spoke out against his presidency, and in January 1998 university students began organising nationwide demonstrations. The crisis climaxed while Suharto was on a state visit to Egypt on 12 May 1998, when security forces killed four demonstrators from Jakarta's Trisakti University. On 21 May 1998, Suharto announced his resignation, upon which vice-president Habibie assumed the presidency in accordance with the constitution."
     
+    MSY_1969_revolution.t:0 "The 13 May Incident"
+    MSY_1969_revolution.d:0 "The 13 May incident was an episode of Sino-Malay sectarian violence that took place in Kuala Lumpur, the capital of Malaysia, on 13 May 1969. The riot occurred in the aftermath of the 1969 Malaysian general election when opposition parties such as the Democratic Action Party and Gerakan made gains at the expense of the ruling coalition, the Alliance Party. The racial riots led to a declaration of a state of national emergency by the Yang di-Pertuan Agong (King), resulting in the suspension of Parliament. A National Operations Council (NOC) was established as a caretaker government to temporarily govern the country between 1969 and 1971."
+    MSY_1971_revolution.t:0 "The Malaysian New Economic Policy?"
+    MSY_1971_revolution.d:0 "The New Economic Policy (NEP) was a social re-engineering and affirmative action program formulated by the National Operations Council (NOC) in the aftermath of 13 May Incident in Malaysia. Pro-Bumiputera affirmative action was intensively pursued."
+    MSY_2018_revolution.t:0 "The Fall of Najib Razak?"
+    MSY_2018_revolution.d:0 "During his tenure as Prime Minister, Najib implemented various economic and infrastructure development programs, including the 1Malaysia Development Berhad (1MDB) initiative. However, his leadership was marred by allegations of corruption and misappropriation of funds related to the 1MDB scandal, which led to his political downfall. In 2018, Najib's political career faced a significant setback when his party, Barisan Nasional, lost the general elections to the Pakatan Harapan coalition. Subsequently, he faced legal charges related to the 1MDB scandal."
+    MSY_2020_revolution.t:0 "The Sheraton Move?"
+    MSY_2020_revolution.d:0 "The 2020–2022 Malaysian political crisis was triggered after several Members of Parliament (MPs) of the 14th Malaysian Parliament changed party support, leading to the loss of a parliamentary majority, the collapse of two successive coalition governments, and the resignation of two Prime Ministers. The political crisis culminated in a 2022 snap general election and eventual formation of a coalition government."
+    MSY_2022_revolution.t:0 "The Rise of Pakatan Harapan?"
+    MSY_2022_revolution.d:0 "After the 2022 general election that resulted in a hung parliament, the Alliance of Hope returned to power with a two-thirds majority, led by Prime Minister and PH Chairman Anwar Ibrahim, by forming a coalition government with National Front (BN), Sarawak Parties' Alliance (GPS), Sabah People's Alliance (GRS), Heritage Party (WARISAN), Malaysian People's Party (PBM), Social Democratic Harmony Party (KDM), and independents. Meanwhile Muhyiddin Yassin's Perikatan Nasional declined to join the coalition, and took the role of the opposition, with 74 seats."
+    
     NKO_1994_revolution.t:0 "The Rise of Kim Jong Il?"
     NKO_1994_revolution.d:0 "Kim Jong Il was a North Korean politician who was the second supreme leader of North Korea. He led North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011, when he was succeeded by his son, Kim Jong Un."
     NKO_2012_revolution.t:0 "The Rise of Kim Jong Un?"
@@ -1478,6 +1489,8 @@
     SKO_1979_revolution.d:0 "Park Chung Hee was assassinated on October 26, 1979, during a dinner at the Korean Central Intelligence Agency (KCIA) safe house near the Blue House presidential compound in Jongno District, Seoul, South Korea. Kim Jae-gyu, the director of the KCIA and the president's security chief, was responsible for the assassination. Park was shot in the chest and the head, and died almost immediately."
     SKO_1987_revolution.t:0 "The June Democratic Struggle?"
     SKO_1987_revolution.d:0 "The June Democratic Struggle was a nationwide pro-democracy movement in South Korea that generated mass protests from June 10 to 29, 1987. The demonstrations forced the ruling government to hold direct presidential elections and institute other democratic reforms, which led to the establishment of the Sixth Republic, the present-day government of South Korea."
+    SKO_2016_revolution.t:0 "The Impeachment of Park Geun-hye?"
+    SKO_2016_revolution.d:0 "The impeachment of Park Geun-hye, President of South Korea, was the culmination of a political scandal involving interventions to the presidency from her aide, Choi Soon-sil. Revelations emerged in late October 2016, that President Park Geun-hye's aide, Choi Soon-sil, who did not have an official position in the government, had used her position to seek donations of money from several business conglomerates (known as chaebol), including Samsung, Hyundai, SK Group and Lotte, to two foundations she controlled. The impeachment vote took place on 9 December 2016, with 234 members of the 300-member National Assembly voting in favour of the impeachment and temporary suspension of Park Geun-hye's presidential powers and duties."
     
     ROC_1996_revolution.t:0 "Democratisation of Taiwan?"
     ROC_1996_revolution.d:0 "In 1987, martial law was lifted and Taiwan began a democratisation process, beginning with the abolition of the Temporary Provisions and culminating with the first direct president election in 1996."
@@ -3319,6 +3332,12 @@
     IDO_historical_election_system.t:0 "Indonesian Presidential Election"
     IDO_historical_election_system.d:0 "The president of the Republic of Indonesia is the head of state and head of government of the Republic of Indonesia. The president leads the executive branch of the Indonesian government and is the commander-in-chief of the Indonesian National Armed Forces. Since 2004, the president and vice president are directly elected to a five-year term, once renewable, allowing for a maximum of 10 years in office."
     
+    SKO_historical_election_system.t:0 "South Korean Presidential Election"
+    SKO_historical_election_system.d:0 "The President of the Republic of Korea is the head of state and head of government of the Republic of Korea. The president leads the State Council, and is the chief of the executive branch of the national government as well as the commander-in-chief of the Republic of Korea Armed Forces."
+    
+    MSY_historical_election_system.t:0 "Malaysian General Election"
+    MSY_historical_election_system.d:0 "The prime minister of Malaysia is the head of government of Malaysia. The prime minister directs the executive branch of the federal government. The Yang di-Pertuan Agong appoints the prime minister as a member of Parliament (MP) who, in his opinion, is most likely to command the confidence of a majority of MPs. The Prime Minister is usually the leader of the party winning the most seats in a general election. "
+    
     historical_election_system.f:0 "This is a historical event. Choosing the non-historical option will keep the current [concept_ruler] as the [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')]."
     
     historical_election_system.option.1:0 "Follow history!"
@@ -3432,6 +3451,8 @@
     je_boost_opposition_button_desc:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will provide covert support to the [concept_opposition]."
     je_anti_terror_operation_button:0 "Conduct Counter-Terrorism Operation"
     je_anti_terror_operation_button_desc:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will arrest and dismantle all terrorist organisations in a random [concept_state]."
+    je_assassinate_ruler_button:0 "Assassinate [concept_ruler]"
+    je_assassinate_ruler_button_desc:0 "Radical elements in the [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will assassinate the [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')]."
     
     ig_leader_assassinated:0 "Interest Group Leader Assassinated"
     ig_leader_clout_sabotaged:0 "Politically Sabotaged"

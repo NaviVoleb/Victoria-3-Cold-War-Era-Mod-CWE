@@ -114,10 +114,49 @@ fire_historical_election_event = {
 			}
 			
 			#Historical conditions
-			is_a_presidential_democracy = yes
+			OR = { 
+				is_a_presidential_democracy = yes
+				AND = {
+					has_government_type = gov_presidential_regime
+					game_date >= 1945.1.1
+					game_date < 1968.3.27
+				}
+			}
 			is_sufficiently_independent = yes
 		}
 		trigger_event = { id = historical_election_system.7 }
+	}
+	
+	# South Korean Presidential Elections
+	if = {
+		limit = { 
+			c:SKO ?= this
+			
+			#First and Last leader
+			game_date >= 1988.2.25					
+			game_date < 2028.5.9
+			
+			#Historical conditions
+			is_a_presidential_democracy = yes
+			is_sufficiently_independent = yes
+		}
+		trigger_event = { id = historical_election_system.8 }
+	}
+	
+	# Malaysian Elections
+	if = {
+		limit = { 
+			c:MSY ?= this
+			
+			#First and Last leader
+			game_date >= 1976.1.15
+			game_date < 2018.5.9
+			
+			#Historical conditions
+			has_government_type = gov_constitutional_monarchy
+			is_sufficiently_independent = yes
+		}
+		trigger_event = { id = historical_election_system.9 }
 	}
 
 }
