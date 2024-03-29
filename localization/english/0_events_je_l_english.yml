@@ -652,6 +652,8 @@
     british_anguilla.sgc.d:0 "$generic_self_rule_decolonisation_loc_desc$"
     british_TCI.sgc.t:0 "Self Rule in the Turks and Caicos Islands?"
     british_TCI.sgc.d:0 "$generic_self_rule_decolonisation_loc_desc$"
+    british_hong_kong.sgc.t:0 "Self Rule in Hong Kong?"
+    british_hong_kong.sgc.d:0 "After the Sino-British Joint Declaration, the Hong Kong government decided to start the process of democratisation in Hong Kong based on the consultative document Green Paper: the Further Development of Representative Government in Hong Kong published on 18 July 1984. There were 12 members elected by the Electoral Colleges and 12 by the functional constituencies, four official members and the rest of the seats were appointed by the Governor."
     
     british_canada.indy.t:0 "Independence of Canada?"
     british_canada.indy.d:0 "In 1981, the Canadian House of Commons and Senate passed a resolution requesting that the British Parliament enact a package of constitutional amendments which would end the last powers of the British Parliament to legislate for Canada and would create an entirely Canadian process for constitutional amendments."
@@ -1048,9 +1050,9 @@
     6_day_war.t:0 "The Arab-Israeli War"
     6_day_war.d:0 "The Six-Day War or June War, also known as the 1967 Arab–Israeli War or Third Arab–Israeli War, was fought between Israel and a coalition of Arab states from 5 to 10 June 1967."
     ifni_war.t:0 "The Ifni War"
-    ifni_war.d:0 "The Ifni War DESC"
+    ifni_war.d:0 "The Ifni War, sometimes called the Forgotten War in Spain, was a series of armed incursions into Spanish West Africa by Moroccan insurgents that began in October 1957 and culminated with the abortive siege of Sidi Ifni."
     IDO_ETM_war.t:0 "The Invasion of East Timor"
-    IDO_ETM_war.d:0 "The Invasion of East Timor DESC"
+    IDO_ETM_war.d:0 "The Indonesian invasion of East Timor began on 7 December 1975 when the Indonesian military (ABRI/TNI) invaded East Timor under the pretext of anti-colonialism and anti-communism to overthrow the Fretilin regime that had emerged in 1974."
     iran_iraq_war.t:0 "The Iran-Iraq War"
     iran_iraq_war.d:0 "The Iran–Iraq War was an armed conflict between Iran and Iraq that lasted from September 1980 to August 1988. Active hostilities began with the Iraqi invasion of Iran and lasted for eight years, until the acceptance of United Nations Security Council Resolution 598 by both sides."
     france_tunisia_war.t:0 "The Bizerte Crisis"
@@ -1058,13 +1060,13 @@
     yom_kippur_war.t:0 "The Yom Kippur War"
     yom_kippur_war.d:0 "The Yom Kippur War, also known as the Ramadan War, the October War, the 1973 Arab–Israeli War, or the Fourth Arab–Israeli War, was an armed conflict fought from 6 to 25 October 1973, between Israel and a coalition of Arab states led by Egypt and Syria."
     morocco_sahara_war.t:0 "The Annexation of Western Sahara?"
-    morocco_sahara_war.d:0 "The Annexation of Western Sahara DESC"
+    morocco_sahara_war.d:0 "The annexation of Western Sahara occurred in two stages: 1976 and 1979. Shortly after Spain gave up control over Spanish Sahara in 1975, both Mauritania and Morocco occupied the territory. On 14 April 1976, the two countries annexed it between themselves via the Western Sahara partition agreement."
     iraq_kuwait_war.t:0 "The Gulf War?"
     iraq_kuwait_war.d:0 "On 2 August 1990, Iraq, governed by dictator Saddam Hussein, launched an invasion of neighboring Kuwait and fully occupied the country within two days. The invasion of Kuwait was immediately met with international condemnation, including in Resolution 660 by the United Nations Security Council (UNSC), which unanimously imposed economic sanctions against Iraq in Resolution 661. UNSC Resolution 678 adopted on 29 November 1990 offered Iraq one final chance until 15 January 1991 to implement Resolution 660 and withdraw from Kuwait; it further empowered states after the deadline to use "all necessary means" to force Iraq out of Kuwait."
     soviet_afghan_war.t:0 "Soviet–Afghan War?"
     soviet_afghan_war.d:0 "The Soviet–Afghan War was a protracted armed conflict fought in the Soviet-controlled Democratic Republic of Afghanistan (DRA) from 1979 to 1989. The war began after the Soviets, under the command of Leonid Brezhnev, launched an invasion of Afghanistan to support the local pro-Soviet government that had been installed during Operation Storm-333."
     vietnam_cambodian_war.t:0 "The Invasion of Cambodia?"
-    vietnam_cambodian_war.d:0 "The Invasion of Cambodia DESC"
+    vietnam_cambodian_war.d:0 "On 25 December 1978, 150,000 Vietnamese troops invaded Democratic Kampuchea and overran the Kampuchean Revolutionary Army in just two weeks, thereby ending Pol Pot's government, which had been responsible for the deaths of almost a quarter of all Cambodians between 1975 and December 1978 during the Cambodian genocide."
     russia_ukraine_war.t:0 "The Russo-Ukrainian War?"
     russia_ukraine_war.d:0 "The Russo-Ukrainian War was an international conflict between Russia and Ukraine, which began in February 2014. Following Ukraine's Revolution of Dignity, Russia annexed Crimea from Ukraine and supported pro-Russian separatists fighting the Ukrainian military in the Donbas war. The first eight years of conflict also included naval incidents, cyberwarfare, and heightened political tensions. In February 2022, Russia launched a full-scale invasion of Ukraine with the objectives of annexing further territory and imposing a regime change."
     second_iraq_war.t:0 "The Iraq War?"
@@ -1113,6 +1115,10 @@
     yemenite_war.d:0 "The Second Yemenite War was a short military conflict between the Yemen Arab Republic and the People's Democratic Republic of Yemen. The war developed out of a breakdown in relations between the two countries after the president of North Yemen, Ahmad al-Ghashmi, was killed on 24 June 1978, and Salim Rubai Ali, a moderate Marxist who had been working on a proposed merger between the two Yemens, was murdered two days later."
     sino_indian_war.t:0 "The Sino-Indian War?"
     sino_indian_war.d:0 "The Sino-Indian War was an armed conflict between China and India that took place from October to November 1962. It was a military escalation of the Sino-Indian border dispute. Fighting occurred along India's border with China, in India's North-East Frontier Agency east of Bhutan, and in Aksai Chin west of Nepal. The conflict ended when China unilaterally declared a ceasefire on 20 November 1962, and simultaneously announced its withdrawal to its pre-war position, the effective China–India border (also known as the Line of Actual Control)."
+    IDO_MSY_war.t:0 "The Konfrontasi?"
+    IDO_MSY_war.d:0 "The Indonesia–Malaysia confrontation or Borneo confrontation (simply known as Konfrontasi in Indonesia, Malaysia and Singapore) was an armed conflict from 1963 to 1966 that stemmed from Indonesia's opposition to the creation of the state of Malaysia from the Federation of Malaya. After Indonesian president Sukarno was deposed in 1966, the dispute ended peacefully."
+    SAF_ANG_war.t:0 "Operation Savannah?"
+    SAF_ANG_war.d:0 "Operation Savannah was the South African code name for their military incursion into Angola in 1975–1976. It was part of the South African Border War and arose due to the Angolan War of Independence. The objective was to prevent the creation of a state hostile to South Africa in Angola."
     
     korean_war:0 "The Korean War"
     portugal_india_war:0 "Annexation of Goa"
@@ -1163,6 +1169,11 @@
     
     BYE_1994_revolution.t:0 "Presidency of Alexander Lukashenko?"
     BYE_1994_revolution.d:0 "Presidency of Alexander Lukashenko DESC"
+    
+    NEJ_1964_revolution.t:0 "The Abdication of King Saud?"
+    NEJ_1964_revolution.d:0 "Under Saud's reign, Saudi Arabia joined the Non-Aligned Movement in 1961. However, Saud's inability to counter the Saudi national debt brought him into a power struggle with his half-brother and crown prince, Faisal, culminating in the forced abdication of Saud and the proclamation of Faisal as king. Saud went into exile and made an unsuccessful attempt, supported by some of his sons, to take back the throne."
+    NEJ_1975_revolution.t:0 "The Assassination of King Faisal?"
+    NEJ_1975_revolution.d:0 "On 25 March 1975, the King was shot point-blank and killed by Faisal bin Musaid, son of his half-brother Musaid bin Abdulaziz. He had just come back from the United States. The murder occurred at a majlis (literally 'a place for sitting'), an event where the king or leader opens up his residence to the citizens to enter and petition him."
     
     ALG_1965_revolution.t:0 "The Algerian coup d'état?"
     ALG_1965_revolution.d:0 "The 1965 Algerian coup d'état brought Colonel Houari Boumédiène to power as Chairman of the Revolutionary Council in Algeria. The bloodless coup d'état saw Algeria's first President, Ahmed Ben Bella, arrested and his closest supporters imprisoned by Boumédiène and his allies, principally in the Algerian Land Forces."
@@ -1310,15 +1321,15 @@
     URU_1985_revolution.d:0 "In 1984, there were strikes against the regime and in support of political prisoners. On January 13, 1984, the first 24-hour general strike since 1973 was organized. Talks between military leadership and civilian politicians intensified despite the fact that several political leaders were still notable, such as Wilson Ferreira Aldunate. On August 3, 1984, the Naval Club Pact was signed and restored the constitution of 1967 and allowed the military to advise in security matters and control appointments of senior officers. On November 25, 1984, elections were held, and following the brief presidency of Rafael Addiego Bruno, on March 1, 1985, Colorado Party candidate Julio Maria Sanguinetti became the new president."
     
     SPA_1976_revolution.t:0 "Spanish Transition to Democracy?"
-    SPA_1976_revolution.d:0 "Spanish Transition to Democracy DESC"
+    SPA_1976_revolution.d:0 "The Spanish transition to democracy is a period of modern Spanish history encompassing the regime change that moved from the Francoist dictatorship to the consolidation of a parliamentary system, in the form of constitutional monarchy under Juan Carlos I."
     
     POR_1974_revolution.t:0 "The Carnation Revolution?"
     POR_1974_revolution.d:0 "The Carnation Revolution was a military coup by left-leaning military officers that overthrew the authoritarian Estado Novo government on 25 April 1974 in Lisbon, producing major social, economic, territorial, demographic, and political changes in Portugal and its overseas colonies through the Processo Revolucionário Em Curso. It resulted in the Portuguese transition to democracy and the end of the Portuguese Colonial War."
     
     GRE_1967_revolution.t:0 "The Regime of the Colonels?"
-    GRE_1967_revolution.d:0 "The Regime of the Colonels DESC"
+    GRE_1967_revolution.d:0 "The Greek junta or Regime of the Colonels was a right-wing military dictatorship that ruled Greece from 1967 to 1974. On 21 April 1967, a group of colonels overthrew the caretaker government a month before scheduled elections which Georgios Papandreou's Centre Union was favoured to win."
     GRE_1974_revolution.t:0 "Fall of the Junta?"
-    GRE_1974_revolution.d:0 "Fall of the Junta DESC"
+    GRE_1974_revolution.d:0 "The collapse of the junta both ideologically and politically was triggered by a series of events which unfolded soon after Papadopoulos' attempt at liberalisation, with ideological collapse preceding its eventual political collapse. During and following this ill-fated process the internal political strains of the junta came to the fore and pitted the junta factions against each other, thus destroying the seemingly monolithic cohesion of the dictatorship."
     
     FRA_1958_revolution.t:0 "The Fifth French Republic?"
     FRA_1958_revolution.d:0 "The Fifth Republic emerged from the collapse of the Fourth Republic, replacing the former parliamentary republic with a semi-presidential (or dual-executive) system that split powers between a president as head of state and a prime minister as head of government. The 1958 constitution also replaced the French Union with the French Community, which allowed fourteen member territories (excluding Algeria) to assert their independence."
@@ -1329,7 +1340,7 @@
     RUS_2000_revolution.d:0 "On 31 December 1999, president Yeltsin unexpectedly resigned, handing the post to the recently appointed prime minister and his chosen successor, Vladimir Putin. Putin then won the 2000 presidential election, and defeated the Chechen insurgency in the Second Chechen War. Putin's rule increased stability, while transforming Russia into an authoritarian state."
     
     UKR_2014_revolution.t:0 "The Maidan Revolution?"
-    UKR_2014_revolution.d:0 "The Maidan Revolution DESC"
+    UKR_2014_revolution.d:0 "The Revolution of Dignity, also known as the Maidan Revolution, took place in Ukraine in February 2014 at the end of the Euromaidan protests, when deadly clashes between protesters and state forces in the capital Kyiv culminated in the ousting of elected President Viktor Yanukovych, the return to the 2004 Constitution of Ukraine, and the outbreak of the 2014 Russo-Ukrainian War."
     
     YUG_1974_revolution.t:0 "The 1974 Constitution?"
     YUG_1974_revolution.d:0 "With 406 original articles, the 1974 constitution was one of the longest constitutions in the world. It added elaborate language protecting the self-management system from state interference and expanding representation of republics and provinces in all electoral and policy forums. The Constitution called the restructured Federal Assembly the highest expression of the self-management system."
@@ -1467,6 +1478,8 @@
     MSY_1969_revolution.d:0 "The 13 May incident was an episode of Sino-Malay sectarian violence that took place in Kuala Lumpur, the capital of Malaysia, on 13 May 1969. The riot occurred in the aftermath of the 1969 Malaysian general election when opposition parties such as the Democratic Action Party and Gerakan made gains at the expense of the ruling coalition, the Alliance Party. The racial riots led to a declaration of a state of national emergency by the Yang di-Pertuan Agong (King), resulting in the suspension of Parliament. A National Operations Council (NOC) was established as a caretaker government to temporarily govern the country between 1969 and 1971."
     MSY_1971_revolution.t:0 "The Malaysian New Economic Policy?"
     MSY_1971_revolution.d:0 "The New Economic Policy (NEP) was a social re-engineering and affirmative action program formulated by the National Operations Council (NOC) in the aftermath of 13 May Incident in Malaysia. Pro-Bumiputera affirmative action was intensively pursued."
+    MSY_1998_revolution.t:0 "The Anwar Ibrahim Sodomy Trials?"
+    MSY_1998_revolution.d:0 "During the 1997 Asian Financial Crisis, Anwar supported the IMF plan as a finance minister. Mahathir blamed currency speculators like George Soros for the crisis and supported currency controls and tighter regulation of foreign investment. However, in that year, matters between Anwar and Mahathir came to a head around the quadrennial UMNO General Assembly. Anwar was fired from the Cabinet on 2 September 1998, amid police reports that he was under investigation. The following day, he was expelled from UMNO. Munawar Anees, Anwar's former speechwriter, and Sukma Darmawan Sasmita Atmadja, Anwar's adoptive brother, were arrested under suspicion of engaging in homosexual acts."
     MSY_2018_revolution.t:0 "The Fall of Najib Razak?"
     MSY_2018_revolution.d:0 "During his tenure as Prime Minister, Najib implemented various economic and infrastructure development programs, including the 1Malaysia Development Berhad (1MDB) initiative. However, his leadership was marred by allegations of corruption and misappropriation of funds related to the 1MDB scandal, which led to his political downfall. In 2018, Najib's political career faced a significant setback when his party, Barisan Nasional, lost the general elections to the Pakatan Harapan coalition. Subsequently, he faced legal charges related to the 1MDB scandal."
     MSY_2020_revolution.t:0 "The Sheraton Move?"
@@ -1637,8 +1650,8 @@
     bissau_guinean_war.d:0 "The Guinea-Bissau War for Independence DESC"
     cameroonian_war.t:0 "The Cameroon War for Independence"
     cameroonian_war.d:0 "The Cameroon War for Independence DESC"
-    namibian_war.t:0 "The Namibian War for Independence"
-    namibian_war.d:0 "The Namibian War for Independence DESC"
+    namibian_war.t:0 "The Namibian War of Independence"
+    namibian_war.d:0 "The South African Border War, also known as the Namibian War of Independence, and sometimes denoted in South Africa as the Angolan Bush War, was a largely asymmetric conflict that occurred in Namibia (then South West Africa), Zambia, and Angola from 26 August 1966 to 21 March 1990."
     kenyan_war.t:0 "The Kenyan War for Independence"
     kenyan_war.d:0 "The Kenyan War for Independence DESC"
     cypriot_war.t:0 "The Cypriot War for Independence"
@@ -3592,3 +3605,40 @@
     je_develop_vaccine_button_desc:0 "Top scientists in [ROOT.GetCountry.GetName] will start work on a vaccine to make our population immune to the pandemic virus. This is estimated to take around 12 months to complete."
     je_buy_vaccine_button:0 "Buy a Vaccine"
     je_buy_vaccine_button_desc:0 "[ROOT.GetCountry.GetName] will buy a vaccine from a country which has already developed one to make our population immune to the pandemic virus."
+    
+    je_post_colonial_org_system:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_name_custom_title')]"
+    je_post_colonial_org_system_reason:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_name_custom_desc')]"
+    je_post_colonial_org_system_status:0 "Total Members: [GetPlayer.MakeScope.Var('post_colonial_org_member_count').GetValue]"
+    
+    Commonwealth_of_Nations_custom_title:0 "The Commonwealth of Nations"
+    Francophonie_custom_title:0 "The Francophonie"
+    Ibero_American_Organisation_custom_title:0 "The Organisation of Ibero-American States"
+    
+    Commonwealth_of_Nations_custom_desc:0 "$join_commonwealth_decision_desc$"
+    Francophonie_custom_desc:0 "$join_francophonie_decision_desc$"
+    Ibero_American_Organisation_custom_desc:0 "$join_ibero_american_organisation_decision_desc$"
+    
+    post_colonial_org_custom_title:0 "Post Colonial Organisations"
+    post_colonial_org_custom_desc:0 "[ROOT.GetCountry.GetName] is a member of more than 1 Post Colonial Organisation. \n\n[SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_UK_desc_custom_title')] \n\n[SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_FRA_desc_custom_title')] \n\n[SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_SPA_desc_custom_title')]"
+    
+    Commonwealth_custom_adjective:0 "Commonwealth"
+    Francophonie_custom_adjective:0 "Francophonie"
+    Ibero_American_Organisation_custom_adjective:0 "Ibero-American"
+    post_colonial_org_custom_adjective:0 "Colonial Association"
+    
+    hosted_post_colonial_org_games:0 "Hosted International Sports"
+    post_colonial_org_expenses:0 "International Sports Expenses"
+    post_colonial_org_games_host_city:0 "International Sports Venue"
+    good_post_colonial_org_games_performance:0 "Won International Sports Bigly"
+    bad_post_colonial_org_games_performance:0 "Lost International Sports Bigly"
+    
+    post_colonial_org_games_timer.tt:0 "At least 4 years since the last [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_games_name_custom_title')] Games."
+    
+    je_host_post_colonial_org_games_button:0 "Host the [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_games_name_custom_title')] Games"
+    je_host_post_colonial_org_games_button_desc:0 "[ROOT.GetCountry.GetName] will invite all members of [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_name_custom_title')] to participate in the [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_games_name_custom_title')] Games."
+    
+    participation_post_colonial_org_games.t:0 "The [SCOPE.sState('post_colonial_org_summit_location').GetCityHubName] [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_games_name_custom_title')] Games"
+    participation_post_colonial_org_games.d:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('je_post_colonial_org_games_name_custom_title')] Games held in [SCOPE.sCountry('recently_hosted_post_colonial_org_games').GetName] drew thousands of athletes from around the world to participate in a variety of contests. This was topped off by a huge ceremony in [SCOPE.sState('post_colonial_org_summit_location').GetCityHubName], the venue for the games."
+    participation_post_colonial_org_games.option.1:0 "All the best to our athletes!"
+    participation_post_colonial_org_games.option.2:0 "Get our athletes to dope!"
+    participation_post_colonial_org_games.option.3:0 "Boycott the Games!"
