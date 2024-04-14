@@ -38,6 +38,12 @@ machinists = {
 			multiply = 20
 			desc = "QUALIFICATIONS_LITERACY_FACTOR"
 		}
+		add = {
+			value = wealth
+			max = 30
+			divide = 2
+			desc = "QUALIFICATIONS_WEALTH_FACTOR"
+		}
 		if = {
 			limit = {
 				is_pop_type = laborers

@@ -271,7 +271,7 @@ ww2_victor = {
 
 longing_for_peace = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	political_movement_radicalism_mult = -0.50
+	political_movement_radicalism_mult = -1.0
 }
 
 national_pride_modifier = {
@@ -450,12 +450,12 @@ rio_pact_leader = {
 
 warsaw_pact_member = {
 	icon = gfx/interface/icons/diplo_icons/warsaw_pact_member.dds
-	country_prestige_mult = 0.025
+	country_prestige_mult = 0.05
 }
 
 warsaw_pact_leader = {
 	icon = gfx/interface/icons/diplo_icons/warsaw_pact_member.dds
-	country_prestige_mult = 0.05
+	country_prestige_mult = 0.10
 }
 
 warsaw_pact_exercise = {
@@ -655,7 +655,7 @@ OECD_leader = {
 
 COMECON_member = {
 	icon = gfx/interface/icons/diplo_icons/COMECON_member.dds
-	country_prestige_mult = 0.025
+	country_prestige_mult = 0.05
 	country_tech_spread_mult = 0.05
 	country_trade_route_cost_mult = -0.05
 	country_trade_route_competitiveness_mult = 0.05
@@ -666,7 +666,7 @@ COMECON_member = {
 
 COMECON_leader = {
 	icon = gfx/interface/icons/diplo_icons/COMECON_member.dds
-	country_prestige_mult = 0.05
+	country_prestige_mult = 0.10
 	country_tech_spread_mult = 0.05
 	country_trade_route_cost_mult = -0.05
 	country_trade_route_competitiveness_mult = 0.10
@@ -694,7 +694,8 @@ nuclear_dev_cost = {
 
 nuclear_capability = {
 	icon = gfx/interface/icons/diplo_icons/nuclear_capability.dds
-	country_prestige_mult = 0.05
+	country_prestige_add = 500
+	country_prestige_from_army_power_projection_mult = 0.05
 }
 
 nuclear_attack_cooldown = {
@@ -1199,6 +1200,11 @@ communication_network_damaged = {
 	building_throughput_add = -0.50
 }
 
+cyber_attack = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	building_throughput_add = -0.25
+}
+
 ### Climate Change ###
 
 climate_change_effects_1 = {
@@ -1413,6 +1419,30 @@ cybersin_system_service = {
 cybersin_dev_cost = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_tax_waste_add = 0.05
+}
+
+### G8 System ###
+
+G8_trade_focus = {
+	icon = gfx/interface/icons/invention_icons/international_diplomacy.dds
+	country_trade_route_competitiveness_mult = 0.10
+	country_tech_spread_mult = 0.10
+	country_trade_route_cost_mult = -0.10
+	country_convoys_capacity_mult = 0.10
+}
+
+G8_democracy_focus = {
+	icon = gfx/interface/icons/invention_icons/international_diplomacy.dds
+	country_radicals_from_conquest_mult = 0.10
+	country_radicals_from_legitimacy_mult = -0.10
+	country_revolution_progress_mult = -0.10
+	country_secession_progress_mult = -0.10
+	country_opposition_ig_approval_add = 5
+}
+
+G8_environment_focus = {
+	icon = gfx/interface/icons/invention_icons/international_diplomacy.dds
+	state_pollution_reduction_health_mult = -0.10
 }
 
 ### Vanilla modifiers ###

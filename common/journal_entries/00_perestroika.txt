@@ -12,22 +12,20 @@ je_perestroika = {
 		is_a_command_economy = yes
 		
 		#No political liberalisation
-		NOR = { 
-			has_law = law_type:law_limited_free_speech
-			has_law = law_type:law_full_free_speech
+		OR = { 
+			NOR = { 
+				has_law = law_type:law_limited_free_speech
+				has_law = law_type:law_full_free_speech
+			}
+			has_law = law_type:law_appointed_legislature
+			has_law = law_type:law_no_voting
 		}
-		has_law = law_type:law_appointed_legislature
-		has_law = law_type:law_no_voting
 		
 		#Ruler is a reformer
-		any_interest_group = { 
-			exists = leader
-			leader = { 
-				is_ruler = yes
-				OR = { 
-					has_ideology = ideology:ideology_democratic
-					has_ideology = ideology:ideology_liberal
-				}
+		ruler ?= {
+			OR = { 
+				has_ideology = ideology:ideology_democratic
+				has_ideology = ideology:ideology_liberal
 			}
 		}
 		

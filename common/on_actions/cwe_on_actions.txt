@@ -357,21 +357,19 @@ on_monthly_pulse_country = {
 				
 				is_a_command_economy = yes
 				
-				NOR = { 
-					has_law = law_type:law_limited_free_speech
-					has_law = law_type:law_full_free_speech
+				OR = { 
+					NOR = { 
+						has_law = law_type:law_limited_free_speech
+						has_law = law_type:law_full_free_speech
+					}
+					has_law = law_type:law_appointed_legislature
+					has_law = law_type:law_no_voting
 				}
-				has_law = law_type:law_appointed_legislature
-				has_law = law_type:law_no_voting
 				
-				any_interest_group = { 
-					exists = leader
-					leader = { 
-						is_ruler = yes
-						OR = { 
-							has_ideology = ideology:ideology_democratic
-							has_ideology = ideology:ideology_liberal
-						}
+				ruler ?= {
+					OR = { 
+						has_ideology = ideology:ideology_democratic
+						has_ideology = ideology:ideology_liberal
 					}
 				}
 				
@@ -933,6 +931,7 @@ on_monthly_pulse_country = {
 		
 		ai_incompetence_management_system.1
 		ai_incompetence_management_system.3
+		ai_incompetence_management_system.5
 		
 		special_administrative_region_system.1
 		
@@ -993,6 +992,11 @@ on_monthly_pulse_country = {
 		#warsaw_pact_system.3
 		warsaw_pact_system.4
 		
+		historical_pandemics.1
+		historical_pandemics.2
+		historical_pandemics.3
+		historical_pandemics.4
+		
 		historical_economy.1
 		historical_economy.2
 		historical_economy.3
@@ -1012,6 +1016,7 @@ on_monthly_pulse_country = {
 		historical_economy.17
 		historical_economy.18
 		historical_economy.19
+		historical_economy.20
 		
 		historical_customs_unions.1
 		
@@ -1019,6 +1024,8 @@ on_monthly_pulse_country = {
 		historical_alliances_system.3
 		historical_alliances_system.5
 		historical_alliances_system.7
+		
+		historical_militarisation.1
 		
 		british_decolonisation.1
 		british_decolonisation.2
@@ -1092,6 +1099,7 @@ on_monthly_pulse_country = {
 		british_decolonisation_indy.37
 		british_decolonisation_indy.38
 		british_decolonisation_indy.39
+		british_decolonisation_indy.40
 		
 		australian_decolonisation.1
 		australian_decolonisation.2
@@ -1220,6 +1228,9 @@ on_monthly_pulse_country = {
 		historical_union_dissolution.9
 		historical_union_dissolution.10
 		historical_union_dissolution.11
+		historical_union_dissolution.12
+		historical_union_dissolution.13
+		historical_union_dissolution.14
 		
 		historical_interstate_wars.1
 		historical_interstate_wars.2
@@ -1346,6 +1357,12 @@ on_monthly_pulse_country = {
 		SOV_gov_changes.2
 		SOV_gov_changes.3
 		SOV_gov_changes.4
+		SOV_gov_changes.5
+		SOV_gov_changes.6
+		SOV_gov_changes.7
+		SOV_gov_changes.8
+		SOV_gov_changes.9
+		SOV_gov_changes.10
 		
 		PRC_gov_changes.1
 		PRC_gov_changes.2
@@ -1408,6 +1425,8 @@ on_monthly_pulse_country = {
 		
 		YUG_gov_changes.1
 		YUG_gov_changes.2
+		
+		SER_gov_changes.1
 		
 		ALB_gov_changes.1
 		
@@ -1557,6 +1576,7 @@ on_monthly_pulse_country = {
 		
 		THI_gov_changes.1
 		THI_gov_changes.2
+		THI_gov_changes.3
 		
 		NKO_gov_changes.1
 		NKO_gov_changes.2

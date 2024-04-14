@@ -40,6 +40,10 @@ historical_abolish_monarchy.1 = {
 			AND = { c:FIJ ?= this game_date >= 1987.10.6 }
 			AND = { c:SRL ?= this game_date >= 1972.5.22 }
 			AND = { c:BAR ?= this game_date >= 2021.11.30 }
+			AND = { c:ZAM ?= this game_date >= 1964.10.24 }
+			
+			#Dutch Colonies
+			AND = { c:SUR ?= this game_date >= 1975.11.25 }
 			
 			#European Monarchies
 			AND = { c:GRE ?= this game_date >= 1974.12.8 }
@@ -121,8 +125,11 @@ historical_abolish_monarchy.1 = {
 					AND = { c:MLW ?= this game_date >= 1966.7.6 }
 					AND = { c:GHA ?= this game_date >= 1960.7.1 }
 					AND = { c:GAM ?= this game_date >= 1970.4.24 }
+					AND = { c:ZAM ?= this game_date >= 1964.10.24 }
 					
 					AND = { c:MLD ?= this game_date >= 1968.11.11 }
+					
+					AND = { c:SUR ?= this game_date >= 1975.11.25 }
 				}
 			}
 			effect_starting_politics_presidential_republic = yes
@@ -138,6 +145,18 @@ historical_abolish_monarchy.1 = {
 			effect_starting_politics_parliamentary_republic = yes
 		}
 		
+		#Remove Monarch
+		if = {
+			limit = { is_a_regime_monarchy = yes }
+			random_scope_character = { 
+				limit = { is_ruler = yes }
+				exile_character_with_martyrdom = yes 
+			}
+			get_ruler_for:presidential_elective = {
+				set_character_as_ruler = yes
+			}
+		}
+		
 		ai_chance = { 
 			base = 90 
 		}
@@ -149,13 +168,13 @@ historical_abolish_monarchy.1 = {
 		default_option = yes
 		
 		#Minor discontent
-		custom_tooltip = {
-			text = everyone_is_angry_custom_tooltip
-			every_scope_state = {
-				add_radicals_in_state = {
-					value = small_radicals
-				}
-			}
+		add_radicals = {
+			value = large_radicals
+			strata = poor
+		}
+		add_radicals = {
+			value = medium_radicals
+			strata = middle
 		}
 		
 		ai_chance = { 

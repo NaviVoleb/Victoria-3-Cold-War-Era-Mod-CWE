@@ -569,7 +569,7 @@ SOV = { # Russia
 		priority = 0
 		
 		trigger = {
-			scope:actor = { has_government_type = gov_soviet_dictatorship }
+			scope:actor = { is_a_communist_government = yes }
 		}
 	}
 	dynamic_country_name = {
@@ -577,7 +577,7 @@ SOV = { # Russia
 		adjective = dyn_c_soviet_union_adj
 		
 		is_main_tag_only = yes
-		priority = 0
+		priority = 1
 		
 		trigger = {
 			scope:actor = { 
@@ -1636,6 +1636,24 @@ NMB = { # Namibia
 					NOT = { is_sufficiently_independent = yes }
 				}
 				coa_def_british_ensign_trigger = yes
+			}
+		}
+	}
+}
+
+SKN = { # Saint Kitts and Nevis
+	dynamic_country_name = {
+		name = dyn_c_Saint_Christopher_Nevis_Anguilla
+		adjective = dyn_c_Saint_Christopher_Nevis_Anguilla_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor ?= { 
+				p:x606060 = {
+					owner = scope:actor
+				}
 			}
 		}
 	}
