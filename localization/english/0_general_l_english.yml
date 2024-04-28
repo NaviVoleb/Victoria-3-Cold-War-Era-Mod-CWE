@@ -1,5 +1,17 @@
 ﻿l_english:
 
+    liberal_party:0 "$party_liberal$"
+    communist_party:0 "$party_communist$"
+    progressive_party:0 "$party_progressive$"
+    centrist_party:0 "$party_centrist$"
+    traditionalist_party:0 "$party_traditionalist$"
+    libertarian_party:0 "$party_libertarian$"
+    conservative_party:0 "$party_conservative$"
+    fascist_party:0 "$party_fascist$"
+    socialist_party:0 "$party_socialist$"
+
+    has_interventionist_fp:0 "Has an interventionist $lawgroup_foreign_policy$"
+
     concept_personal_union_desc_added:0 "[GetLawType('law_HOS_monarch').GetName]"
 
     STANDARD_OF_LIVING_NO_ICON_LEVEL_1:1 "Destitute"
@@ -137,6 +149,12 @@
     setting_no_historical_ai_railroading_desc:0 "The AI is free to choose non-historical options in all events and decisions."
     setting_yes_historical_ai_railroading:0 "Enabled"
     setting_yes_historical_ai_railroading_desc:0 "The AI will always choose the historical option in all events and decisions. This AI behaviour can be toggled on and off anytime mid-game via the decisions tab."
+    
+    rule_auto_trade_system:0 "Autonomous Trade (Performance)"
+    setting_no_auto_trade_system:0 "Disabled"
+    setting_no_auto_trade_system_desc:0 "[Concept('concept_trade_route', '$concept_trade_routes$')] will not be automatically created under some Economic Systems to solve [concept_good] shortages. Disabling Autonomous Trade will improve performance."
+    setting_yes_auto_trade_system:0 "Enabled"
+    setting_yes_auto_trade_system_desc:0 "[Concept('concept_trade_route', '$concept_trade_routes$')] will be automatically created under some Economic Systems to solve [concept_good] shortages."
     
     concept_opposition_desc:0 "The Opposition refers to any [concept_interest_group] that is not part of the [concept_government]."
     
@@ -507,10 +525,10 @@
     nuclear_ultimatum_white_peace_proposal_third_party_accepted_name:0 "[INITIATOR_COUNTRY.GetAdjective] Nuclear Ultimatum Accepted by [TARGET_COUNTRY.GetName]"
     nuclear_ultimatum_white_peace_proposal_third_party_accepted_desc:0 "[TARGET_COUNTRY.GetName] has accepted [INITIATOR_COUNTRY.GetName]'s proposal to have a white peace."
     
-    has_a_non_aggression_pact_with_neighbouring_country_tt:0 "This country has a $non_aggression_pact$ with at least 1 country neigbouring the target country"
-    has_a_nuclear_de_escalation_treaty_with_neighbouring_country_tt:0 "This country has a $nuclear_de_escalation_treaty$ with at least 1 country neigbouring the target country"
-    has_no_non_aggression_pact_with_neighbouring_country_tt:0 "This country does not have a $non_aggression_pact$ with a country neigbouring the target country"
-    has_no_nuclear_de_escalation_treaty_with_neighbouring_country_tt:0 "This country does not have a $nuclear_de_escalation_treaty$ with a country neigbouring the target country"
+    has_a_non_aggression_pact_with_neighbouring_country_tt:0 "This country has a $non_aggression_pact$ with at least 1 country neighbouring the target country"
+    has_a_nuclear_de_escalation_treaty_with_neighbouring_country_tt:0 "This country has a $nuclear_de_escalation_treaty$ with at least 1 country neighbouring the target country"
+    has_no_non_aggression_pact_with_neighbouring_country_tt:0 "This country does not have a $non_aggression_pact$ with a country neighbouring the target country"
+    has_no_nuclear_de_escalation_treaty_with_neighbouring_country_tt:0 "This country does not have a $nuclear_de_escalation_treaty$ with a country neighbouring the target country"
     has_no_no_nuclear_weapons_agreement_tt:0 "This country did not voluntarily disarm itself of nuclear weapons in the last 10 years"
     station_nuclear_weapons_1.tt:0 "Any country neighbouring the target has Cold or lower relations with this country"
     station_nuclear_weapons:0 "Station Nuclear Weapons"
@@ -519,14 +537,14 @@
     station_nuclear_weapons_action_break_name:0 "Remove Stationed Nuclear Weapons"
     station_nuclear_weapons_action_propose_name:0 "Station Nuclear Weapons"
     station_nuclear_weapons_proposal_accepted_name:0 "[INITIATOR_COUNTRY.GetAdjectiveNoFlag] Nuclear Weapons Stationed in [TARGET_COUNTRY.GetName]"
-    station_nuclear_weapons_proposal_accepted_desc:0 "[INITIATOR_COUNTRY.GetName] has stationed its nuclear weapons in [TARGET_COUNTRY.GetName] which allows them to strike any country neigbouring [TARGET_COUNTRY.GetName] more effectively."
+    station_nuclear_weapons_proposal_accepted_desc:0 "[INITIATOR_COUNTRY.GetName] has stationed its nuclear weapons in [TARGET_COUNTRY.GetName] which allows them to strike any country neighbouring [TARGET_COUNTRY.GetName] more effectively."
     station_nuclear_weapons_proposal_declined_name:0 "[TARGET_COUNTRY.GetName] Rejects [INITIATOR_COUNTRY.GetAdjectiveNoFlag] Nuclear Weapons"
     station_nuclear_weapons_proposal_declined_desc:0 "[TARGET_COUNTRY.GetName] has declined [INITIATOR_COUNTRY.GetName]'s offer to station nuclear weapons on [TARGET_COUNTRY.GetAdjective] territory."
     station_nuclear_weapons_desc:3 "This diplomatic action allows the initiator to station nuclear weapons in the target which enables it to strike any country which neighbours the target more effectively."
     station_nuclear_weapons_action_notification_name:0 "Station [INITIATOR_COUNTRY.GetAdjective] Nuclear Weapons in [TARGET_COUNTRY.GetNameNoFlag]?"
-    station_nuclear_weapons_action_notification_desc:2 "[INITIATOR_COUNTRY.GetName] has stationed its nuclear weapons in [TARGET_COUNTRY.GetName] which allows them to strike any country neigbouring [TARGET_COUNTRY.GetName] more effectively."
+    station_nuclear_weapons_action_notification_desc:2 "[INITIATOR_COUNTRY.GetName] has stationed its nuclear weapons in [TARGET_COUNTRY.GetName] which allows them to strike any country neighbouring [TARGET_COUNTRY.GetName] more effectively."
     station_nuclear_weapons_proposal_notification_name:0 "Station [INITIATOR_COUNTRY.GetAdjective] Nuclear Weapons in [TARGET_COUNTRY.GetNameNoFlag]?"
-    station_nuclear_weapons_proposal_notification_desc:3 "[INITIATOR_COUNTRY.GetName] proposes to station its nuclear weapons in [TARGET_COUNTRY.GetName] to allow them to strike any country neigbouring [TARGET_COUNTRY.GetName] more effectively." 
+    station_nuclear_weapons_proposal_notification_desc:3 "[INITIATOR_COUNTRY.GetName] proposes to station its nuclear weapons in [TARGET_COUNTRY.GetName] to allow them to strike any country neighbouring [TARGET_COUNTRY.GetName] more effectively." 
     station_nuclear_weapons_proposal_notification_effects_desc:0 "[INITIATOR_COUNTRY.GetName] will be able to attack any country neighbouring [TARGET_COUNTRY.GetName] with nuclear weapons more effectively by reducing the defence points a country gets from the number of states it owns by 25% per country with [INITIATOR_COUNTRY.GetAdjective] weapons stationed."    
     station_nuclear_weapons_action_notification_break_name:0 "[INITIATOR_COUNTRY.GetAdjectiveNoFlag] Nuclear Weapons Removed"
     station_nuclear_weapons_action_notification_break_desc:0 "[INITIATOR_COUNTRY.GetName] has removed Nuclear Weapons from [TARGET_COUNTRY.GetName]."
@@ -639,6 +657,20 @@
     unprovoked_nuclear_strike_action_notification_desc:0 "[INITIATOR_COUNTRY.GetName] has launched its Nuclear Weapons at [TARGET_COUNTRY.GetName], inflicting great damage on [TARGET_COUNTRY.GetAdjective] [Concept('concept_state', '$concept_states$')]."
     unprovoked_nuclear_strike_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetAdjective] Nuclear Strike on [TARGET_COUNTRY.GetName]"
     unprovoked_nuclear_strike_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] has launched its Nuclear Weapons at [TARGET_COUNTRY.GetName], inflicting great damage on [TARGET_COUNTRY.GetAdjective] [Concept('concept_state', '$concept_states$')]."
+    
+    conduct_biological_strike:0 "Launch Biological Weapons"
+    conduct_biological_strike_action_name:0 "Launch Biological Weapons"
+    conduct_biological_strike_action_propose_name:0 "Strike [TARGET_COUNTRY.GetName] with Biological Weapons Weapons"
+    conduct_biological_strike_desc:0 "This [concept_diplomatic_action] allows the initiator to strike the target country with Biological Weapons Weapons."
+    conduct_biological_strike_action_notification_name:0 "[INITIATOR_COUNTRY.GetAdjective] Biological Weapons Strike on [TARGET_COUNTRY.GetName]"
+    conduct_biological_strike_action_notification_desc:0 "[INITIATOR_COUNTRY.GetName] has launched its Biological Weapons Weapons at [TARGET_COUNTRY.GetName], inflicting great damage on [TARGET_COUNTRY.GetAdjective] [Concept('concept_state', '$concept_states$')]."
+    conduct_biological_strike_action_notification_third_party_name:0 "[INITIATOR_COUNTRY.GetAdjective] Biological Weapons Strike on [TARGET_COUNTRY.GetName]"
+    conduct_biological_strike_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] has launched its Biological Weapons Weapons at [TARGET_COUNTRY.GetName], inflicting great damage on [TARGET_COUNTRY.GetAdjective] [Concept('concept_state', '$concept_states$')]."
+    
+    launch_biological_weapons.1.tt:0 "@warning! 50% chance of triggering a Global Pandemic"
+    
+    biological_attack_cooldown:0 "Biological Weapons Stockpile Exhausted"
+    biological_attack:0 "Devastated by Biological Weapons"
     
     communication_network_damaged:0 "Communications Network Damaged"
     destroy_satellites.tt:0 "Destroy the [SCOPE.sCountry('target_country_scope').GetName] Satellite Network"
@@ -1154,7 +1186,7 @@
     emirati:0 "Emirati"
     iraqi:0 "Iraqi"
     omani:0 "Omani"
-    bahraini:0 "bahraini"
+    bahraini:0 "Bahraini"
     palestinian:0 "Palestinian"
     israeli:0 "Israeli"
     syrian:0 "Syrian"
