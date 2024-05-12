@@ -11967,6 +11967,16 @@ KAS = { # Kashmir
 	}	
 }
 
+KAS_early = { # Kashmir
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_border_KAS_early.dds"
+		color1 = "white"
+	}	
+}
+
 KAZ = { # Kazakhstan
 	pattern = "pattern_solid.tga"
 	color1 = "light_blue"
@@ -27097,5 +27107,17 @@ ETS = { # East Turkestan
 	colored_emblem = {
 		texture = "ce_border_ETS.dds"
 		color1 = "white"	
+	}
+}
+
+SUT = { # South Tyrol
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_border_SUT.dds"
+		color1 = "red"
+		color2 = "yellow"
+		color3 = "black"
 	}
 }

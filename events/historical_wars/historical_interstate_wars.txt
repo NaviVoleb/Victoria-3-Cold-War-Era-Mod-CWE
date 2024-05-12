@@ -5782,6 +5782,8 @@ historical_interstate_wars.52 = {
 	
 	trigger = {													# What triggers the event, if using other events or journal entries leave empty
 		
+		has_global_variable = 1946_start_date
+		
 		#Overlord conditions
 		c:HND ?= this
 		game_date >= 1948.9.13									# START DATE: Date colony became self governing ****
@@ -5880,6 +5882,8 @@ historical_interstate_wars.53 = {
 	
 	trigger = {													# What triggers the event, if using other events or journal entries leave empty
 		
+		has_global_variable = 1946_start_date
+		
 		#Overlord conditions
 		c:EGY ?= this
 		game_date >= 1948.5.15									# START DATE: Date colony became self governing ****
@@ -5927,17 +5931,28 @@ historical_interstate_wars.53 = {
 				provinces = { x60D060 }
 			}
 		}
-		create_diplomatic_play = {
-			name = arab_israeli_war
-			type = dp_humiliation
-			target_country = c:ISR
-			
-			war = yes
+		s:STATE_PALESTINE.region_state:EGY = {
+			set_state_type = incorporated
+		}
+		if = {
+			limit = { 
+				OR = { 
+					is_player = yes
+					c:ISR = { is_player = yes }
+				}
+			}
+			create_diplomatic_play = {
+				name = arab_israeli_war
+				type = dp_annex_war_historical
+				target_country = c:ISR
+				
+				war = yes
 
-			add_war_goal = {
-				holder = c:ISR
-				type = conquer_state
-				target_state = s:STATE_PALESTINE.region_state:EGY
+				add_war_goal = {
+					holder = c:ISR
+					type = conquer_state
+					target_state = s:STATE_PALESTINE.region_state:EGY
+				}
 			}
 		}
 		
@@ -6021,17 +6036,28 @@ historical_interstate_wars.54 = {
 				provinces = { xC9CBC0 }
 			}
 		}
-		create_diplomatic_play = {
-			name = arab_israeli_war
-			type = dp_humiliation
-			target_country = c:ISR
-			
-			war = yes
+		s:STATE_PALESTINE.region_state:JOR = {
+			set_state_type = incorporated
+		}
+		if = {
+			limit = { 
+				OR = { 
+					is_player = yes
+					c:ISR = { is_player = yes } 
+				}
+			}
+			create_diplomatic_play = {
+				name = arab_israeli_war
+				type = dp_annex_war_historical
+				target_country = c:ISR
+				
+				war = yes
 
-			add_war_goal = {
-				holder = c:ISR
-				type = conquer_state
-				target_state = s:STATE_PALESTINE.region_state:JOR
+				add_war_goal = {
+					holder = c:ISR
+					type = conquer_state
+					target_state = s:STATE_PALESTINE.region_state:JOR
+				}
 			}
 		}
 		
@@ -6082,6 +6108,8 @@ historical_interstate_wars.55 = {
     duration = 1 # Duration to fire if triggers are met
 	
 	trigger = {													# What triggers the event, if using other events or journal entries leave empty
+		
+		has_global_variable = 1946_start_date
 		
 		#Overlord conditions
 		exists = c:PAK
